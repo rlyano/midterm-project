@@ -39,9 +39,13 @@ nav a:hover{
     background-size: cover;
 }
 .logo:hover{
-    transition: .5s;
     cursor: pointer;
     opacity: .5;
+}
+
+.aboutusthing {
+    padding:50px 30px 50px 30px;
+    border-radius: 10px;
 }
 
 #f2{
@@ -58,7 +62,7 @@ nav a:hover{
     top: 100;
     z-index: 100;
     width: 100%;
-    height: 600px;
+    height: 600px;;
     background-size: cover;
     animation-name: fadeother;
     animation-iteration-count: infinite;
@@ -218,6 +222,14 @@ footer a{
    transform: scale(1.1)
 }
 
+.volimg{
+    height:auto;
+}
+
+.jumbotron{height:800px;}
+
+
+
 /*--------------------- CLASSES PAGE ---------------------------- */
 
 .classesoffered{
@@ -228,6 +240,7 @@ footer a{
 .classesoffered hr{
     background-color: #fff;
 }
+
 
 /* -------- VOLUNTEER PAGE ------------- */
 
@@ -246,22 +259,100 @@ footer a{
     background-size: cover;
 }
 
+.volimg{
+    max-height:450px;
+}
+
 /* ------- CONTACT US ------------- */
 
 .commentbox{
     min-height: 300px;
 } 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 480px) {
     nav a{
         font-size: .9em;
         padding: 5px 5px 5px 5px;
     }
 
-    #f3{height: 40vh;}
+    #f3 {height: 250px;;}
 
-    #f2{height: 40vh;}
+    #f2 {height: 250px;}
 
-    .imagefade{height: 40vh;}
+    .imagefade {height: 250px;}
+
+    .volunteer p{
+        padding-top: 15px;
+        font-size:.8em
+    }
+
+    .card{
+        height: 500px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    .slidebinder{height:300px;}
+
+    .slide{height:300px;}
+
+    .testimony{
+        opacity:0;
+        height:300px;
+        font-size: .5em;
+        padding-top: 70px;
+        width:105%;
+    
+     
+    }
+    .testimony:hover{
+        cursor: pointer;
+        opacity:1;
+        height:300px;
+        font-size: .5em;
+        transition: 1.5s;
+        width:105%;
+       
+     
+    }
+
+    .left, .right{
+        position: absolute;
+        z-index: 100;
+        height:15px;
+        top: 75px;
+        
+    }
+
+    .right{ right:10px;}
+    .left{ left:10px;}
+
+    .card img{ height:350px;
+    }
+
+    .price{font-size:.7em}
+
+    .pricetitle{font-size:.7em}
+    
+    .volimg{height:300px}
+
+    .jumbotron{height:700px;}
+
+    .classdescript{font-size: .87em;}
+}
+
+@media screen and (max-width: 576px) and (min-width: 480px){
+    nav a{
+        font-size: .9em;
+        padding: 5px 5px 5px 5px;
+    }
+
+    #f3 {height: 250px;;}
+
+    #f2 {height: 250px;}
+
+    .imagefade {height: 250px;}
 
     .volunteer p{
         padding-top: 15px;
@@ -282,16 +373,20 @@ footer a{
     .testimony{
         opacity:0;
         height:300px;
-        font-size: .7em;
+        font-size: .5em;
         padding-top: 70px;
+        width:105%;
+    
      
     }
     .testimony:hover{
         cursor: pointer;
         opacity:1;
         height:300px;
-        font-size: .7em;
+        font-size: .5em;
         transition: 1.5s;
+        width:105%;
+       
      
     }
 
@@ -305,21 +400,29 @@ footer a{
 
     .right{ right:10px;}
     .left{ left:10px;}
+
+    .price{font-size:.7em}
+
+    .pricetitle{font-size:.75em}
     
+    .jumbotron{height:900px;}
+
+    .classdescript{margin-top:30px; font-size:1.1em;}
     
+
 }
 
-@media screen and (max-width: 768px) and (min-width: 540px) {
+@media screen and (max-width: 768px) and (min-width: 576px) {
     nav a{
         font-size: .9em;
         padding: 5px 8px 5px 8px;
     }
 
-    #f3{height: 60vh;}
+    #f3{height: 350px;}
 
-    #f2{height: 60vh;}
+    #f2{height: 350px;}
 
-    .imagefade{height: 60vh;}
+    .imagefade{height: 350px;}
 
     .slidebinder{height:300px;}
 
@@ -352,16 +455,17 @@ footer a{
     .right{ right:10px;}
     .left{ left:10px;}
 
-    .card img{
-        max-height:300px;
-    }
+    .jumbotron{height:950px;}
+
+    .price{font-size:.65em;}
+
+    .classdescript{margin-top:30px; font-size:1.1em;}
+ 
+
     
-    .card{
-        height: 430px;
-    }
 }
 
-@media screen and (max-width: 825px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
     nav a{
         font-size: .9em;
         padding: 5px 8px 5px 8px;
@@ -377,6 +481,10 @@ footer a{
 
     .slide{height:400px;}
 
+    .slide:hover{
+        opacity:.8;
+    }
+
     .testimony{
         opacity:0;
         height:400px;
@@ -386,6 +494,7 @@ footer a{
     .testimony:hover{
         cursor: pointer;
     }
+
     .testimony:active{
         cursor: pointer;
         opacity:1;
@@ -401,10 +510,23 @@ footer a{
         height:15px;
         top: 75px;
     }
-    
+
+    .card img{ height:500px;
+    }
+
+    .jumbotron{height:900px;}
+
+    .price{font-size:.9em}
+
+    .volimg{width:500px;}
+
+    .classdescript{font-size: .9em;}
+
 }
 
-@media screen and (max-width: 1024px) and (min-width: 825px){
+
+
+@media screen and (max-width: 992px) and (min-width: 922px){
     .slidebinder{height:400px;}
 
     .slide{height:400px;}
@@ -433,12 +555,49 @@ footer a{
         height:15px;
         top: 75px;
     }
+
+
+    .card img{ height:500px;
+    }
+
+    .jumbotron{height:950px;}
+  
+    .price{font-size:.9em}
+
+  
+
 }
 
+@media screen and (max-width: 1200px) and (min-width: 992px){
 
-@media screen and (min-width: 1024px) {
+    .jumbotron{height:450px;}
+
+    .card img{ height:350px;}
+
+    .jumbotron img{height:250px;}
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #f2{ height:650px;}
+
+    #f3{ height:650px;}
+
+    .imagefade{height:650px;}
+
     nav a{
         font-size: 1.3em;
         padding: 5px 12px 5px 12px;
     }
+
+    .card img{ height:350px;
+    }
+
+    .jumbotron{height:520px;}
+
+    .jumbotron img{height:300px;}
+    
+    
 }
