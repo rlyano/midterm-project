@@ -270,7 +270,7 @@ footer a{
 } 
 @media screen and (max-width:320px) {
     nav a{
-        font-size: 1em;
+        font-size: 3em;
         padding: 5px 2px 5px 2px;
     }
 
