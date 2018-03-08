@@ -268,7 +268,75 @@ footer a{
 .commentbox{
     min-height: 300px;
 } 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:320px) {
+    nav a{
+        font-size: .6em;
+        padding: 5px 2px 5px 2px;
+    }
+
+    #f3 {height: 180px;;}
+
+    #f2 {height: 180px;}
+
+    .imagefade {height: 180px;}
+
+    .volunteer p{
+        padding-top: 15px;
+        font-size:.8em
+    }
+
+    .card{
+        height: 500px;
+    }
+
+    h1{
+        font-size: 1.8em;
+    }
+
+    .slidebinder{height:250px;}
+
+    .slide{height:250px;}
+
+    .testimony{
+        height:250px;
+        font-size: .5em;
+        padding-top: 70px;
+        width:105%;
+    
+     
+    }
+
+    .mapwidget{height:200px;}
+
+    .left, .right{
+        position: absolute;
+        z-index: 100;
+        height:15px;
+        top: 75px;
+        
+    }
+
+    .right{ right:10px;}
+    .left{ left:10px;}
+
+    .card img{ height:330px;
+    }
+
+    .price{font-size:.7em}
+
+    .pricetitle{font-size:.7em}
+    
+    .volimg{height:300px}
+
+    .jumbotron{height:750px;}
+
+    .classdescript{font-size: .87em;}
+
+
+}
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
     nav a{
         font-size: .75em;
         padding: 5px 5px 5px 5px;
@@ -326,6 +394,8 @@ footer a{
        
      
     }
+
+    .mapwidget{height:200px;}
 
     
 
@@ -421,6 +491,7 @@ footer a{
 
     .classdescript{margin-top:30px; font-size:1.1em;}
     
+    .mapwidget{height:250px;}
 
 }
 
