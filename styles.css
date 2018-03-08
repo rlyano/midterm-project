@@ -270,15 +270,15 @@ footer a{
 } 
 @media screen and (max-width: 480px) {
     nav a{
-        font-size: .9em;
+        font-size: .75em;
         padding: 5px 5px 5px 5px;
     }
 
-    #f3 {height: 250px;;}
+    #f3 {height: 220px;;}
 
-    #f2 {height: 250px;}
+    #f2 {height: 220px;}
 
-    .imagefade {height: 250px;}
+    .imagefade {height: 220px;}
 
     .volunteer p{
         padding-top: 15px;
@@ -316,6 +316,18 @@ footer a{
        
      
     }
+    .testimony:active{
+        cursor: pointer;
+        opacity:1;
+        height:300px;
+        font-size: .5em;
+        transition: 1.5s;
+        width:105%;
+       
+     
+    }
+
+    
 
     .left, .right{
         position: absolute;
@@ -328,7 +340,7 @@ footer a{
     .right{ right:10px;}
     .left{ left:10px;}
 
-    .card img{ height:350px;
+    .card img{ height:330px;
     }
 
     .price{font-size:.7em}
@@ -337,7 +349,7 @@ footer a{
     
     .volimg{height:300px}
 
-    .jumbotron{height:700px;}
+    .jumbotron{height:750px;}
 
     .classdescript{font-size: .87em;}
 }
