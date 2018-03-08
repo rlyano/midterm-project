@@ -270,7 +270,7 @@ footer a{
 } 
 @media screen and (max-width:320px) {
     nav a{
-        font-size: 3em;
+        font-size: .9em;
         padding: 5px 2px 5px 2px;
     }
 
@@ -328,7 +328,7 @@ footer a{
     
     .volimg{height:300px}
 
-    .jumbotron{height:750px;}
+    .jumbotron{height:760px;}
 
     .classdescript{font-size: .87em;}
 
